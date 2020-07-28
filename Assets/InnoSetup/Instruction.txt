@@ -1,0 +1,2 @@
+﻿[Tooltip("安装指南文件")]
+        public string InfoBeforeFile = "InfoBeforeFile.txt";
