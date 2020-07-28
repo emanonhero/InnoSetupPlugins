@@ -12,14 +12,14 @@ namespace Eamon.InnoSetup
     [CreateAssetMenu(menuName = "Eamon/InnoSetupSettings")]
     public class InnoSetupSettings : ScriptableObject
     {
-        private const string packageGuid = "449e1869a4c6ed841aad93f6480d1991";
+        private const string packageGuid = "889d80cb91521644cb7c24a13c7ad4ae";
         private string settingsDir
         {
             get
             {
                 if (string.IsNullOrEmpty(_setDir))
                 {
-                    _setDir = AssetDatabase.GUIDToAssetPath(packageGuid);
+                    _setDir = Path.GetDirectoryName(AssetDatabase.GUIDToAssetPath(packageGuid));
                 }
                 return _setDir;
             }
