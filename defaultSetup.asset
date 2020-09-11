@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: defaultSetup
   m_EditorClassIdentifier: 
   ChineseAppName: "\u901A\u7528\u5DE5\u5177"
-  OutputBaseFilename: "\u901A\u7528\u5DE5\u5177"
+  OutputBaseFilename: 
   IssTemplate: template.txt
   LicenseFile: License.txt
   InfoBeforeFile: 
